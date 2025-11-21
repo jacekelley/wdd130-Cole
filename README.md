@@ -5,5 +5,5 @@ My web adress is:
 https://jacekelley.github.io/wdd130-Cole/
 
 My Junior Devs are:
-Gelsey Helms - 
-Noah Mackay -
+Gelsey Helms - About Us
+Noah Mackay - Contact Us
