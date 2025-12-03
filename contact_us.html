@@ -27,23 +27,55 @@
             <div id="nav_empty"></div>
         </nav>
 
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
-        <h1>Contact Us Contact Goes Here</h1>
+        <!-- MAIN CONTENT AREA -->
+        <div>
+            <h1>Contact Us</h1>
+            
+            <!-- Two-column layout container -->
+            <div id="contact-layout">
+            
+                <!-- LEFT COLUMN: Contact Form Section -->
+                <div>
+                    <h2>Contact form</h2>
+                    <p>Use this as a sub-paragraph underneath your header.</p>
+                    <form action="/submit-contact" method="POST">
+                        <p>
+                            Name:<br>
+                            <input type="text" name="name" required>
+                        </p>
+                        <p>
+                            Email:<br>
+                            <input type="email" name="email" required>
+                        </p>
+                        <p>
+                            Subject:<br>
+                            <input type="text" name="subject" required>
+                        </p>
+                        <p>
+                            Message:<br>
+                            <textarea name="message" rows="8" cols="40" required></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Send Message">
+                        </p>
+                    </form>
+                </div>
+
+                <!-- RIGHT COLUMN: Map/Info Section -->
+                <div>
+                    <!-- placeholder  -->
+                    <div>
+                        Map or Photo Placeholder Area
+                    </div>
+                    
+                    <h3>Office Hours</h3>
+                    <p>Mon - Fri: 9am - 5pm</p>
+                    <h3>Call Us</h3>
+                    <p>(555) 123-4567</p>
+                </div>
+            </div>
+        </div>
+        
 
         <footer><img src="images/cole_logo.png" alt="Mountain Thread Co Logo">
             <div id="nav_buttons">
