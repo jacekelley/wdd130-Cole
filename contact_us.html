@@ -12,7 +12,8 @@
 
 <body>
     <div id="wrapper">
-        <nav><img src="images/cole_logo.png" alt="Mountain Thread Co Logo">
+        <nav>
+            <img src="images/cole_logo.png" alt="Mountain Thread Co Logo">
             <div id="nav_buttons">
                 <a href="index.html">
                     <h1>Home</h1>
@@ -27,47 +28,45 @@
             <div id="nav_empty"></div>
         </nav>
 
-        <!-- MAIN CONTENT AREA -->
-        <div>
+        <div id="main-content">
             <h1>Contact Us</h1>
-            
-            <!-- Two-column layout container -->
+
             <div id="contact-layout">
-            
-                <!-- LEFT COLUMN: Contact Form Section -->
-                <div>
+
+                <div class="column">
                     <h2>Contact form</h2>
                     <p>Use this as a sub-paragraph underneath your header.</p>
-                    <form action="/submit-contact" method="POST">
-                        <p>
-                            Name:<br>
-                            <input type="text" name="name" required>
-                        </p>
-                        <p>
-                            Email:<br>
-                            <input type="email" name="email" required>
-                        </p>
-                        <p>
-                            Subject:<br>
-                            <input type="text" name="subject" required>
-                        </p>
-                        <p>
-                            Message:<br>
-                            <textarea name="message" rows="8" cols="40" required></textarea>
-                        </p>
-                        <p>
-                            <input type="submit" value="Send Message">
-                        </p>
-                    </form>
+                    
+                    <div id="form-container">
+                        <form action="/submit-contact" method="POST">
+                            <p>
+                                Name:<br>
+                                <input type="text" name="name" required>
+                            </p>
+                            <p>
+                                Email:<br>
+                                <input type="email" name="email" required>
+                            </p>
+                            <p>
+                                Subject:<br>
+                                <input type="text" name="subject" required>
+                            </p>
+                            <p>
+                                Message:<br>
+                                <textarea name="message" rows="8" cols="40" required></textarea>
+                            </p>
+                            <p>
+                                <input type="submit" value="Send Message">
+                            </p>
+                        </form>
+                    </div>
                 </div>
 
-                <!-- RIGHT COLUMN: Map/Info Section -->
-                <div>
-                    <!-- placeholder  -->
+                <div class="column">
                     <div>
                         Map or Photo Placeholder Area
                     </div>
-                    
+                
                     <h3>Office Hours</h3>
                     <p>Mon - Fri: 9am - 5pm</p>
                     <h3>Call Us</h3>
@@ -75,9 +74,9 @@
                 </div>
             </div>
         </div>
-        
 
-        <footer><img src="images/cole_logo.png" alt="Mountain Thread Co Logo">
+        <footer>
+            <img src="images/cole_logo.png" alt="Mountain Thread Co Logo">
             <div id="foot_buttons">
                 <a href="#">
                     <h1>Home</h1>
@@ -92,6 +91,7 @@
             <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://x.com/" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
             <a href="https://www.instagram.com/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+        </footer>
     </div>
 </body>
 
