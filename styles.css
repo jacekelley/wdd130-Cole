@@ -21,6 +21,7 @@ h2,
 h3,
 h4 {
     font-family: "Mountain";
+    text-align: center;
 }
 
 p {
@@ -253,45 +254,49 @@ i {
     }
 }
 
-input,
-textarea {
-    width: 98%;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #90A583;
-    background-color: white;
-    margin-left: 25px;
-    margin-right: 25px;
+#main-content {
+    padding: 30px;
+    color: #564E58;
 }
 
-textarea {
-    height: 150px;
-    resize: none;
-    margin-left: 25px;
-    margin-right: 25px;
+#contact-layout::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-input[type="submit"] {
-    width: auto;
-    background-color: #90A583; 
+.column {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+#form-container input,
+#form-container textarea {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#form-container input[type="submit"] {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.column p {
+    text-align: center;
+}
+
+.column > div:first-child { 
+    background-color: #90A583;
+    height: 350px;
+    text-align: center;
     color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-#form-container {
-    width: 90%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #EBEBEB;
-    border: 1px solid #90A583;
-    border-radius: 8px;
-}
-
-input[type="submit"]:hover {
-    background-color: #564E58;
+    font-family: "Mountain";
+    font-size: 1.5em;
+    padding-top: 100px;
+    margin-bottom: 20px;
 }
