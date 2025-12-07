@@ -252,3 +252,46 @@ i {
         gap: 10px;
     }
 }
+
+input,
+textarea {
+    width: 98%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #90A583;
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+input[type="submit"] {
+    width: auto;
+    background-color: #90A583; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#form-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #EBEBEB;
+    border: 1px solid #90A583;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: #564E58;
+}
