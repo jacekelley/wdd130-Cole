@@ -269,10 +269,13 @@ i {
     float: left;
     width: 48%;
     margin-right: 4%;
+    position: relative;
 }
 
 .column:last-child {
     margin-right: 0;
+    margin-top: -85px;
+
 }
 
 #form-container input,
@@ -291,7 +294,6 @@ i {
 }
 
 .column > div:first-child { 
-    background-color: #90A583;
     height: 350px;
     text-align: center;
     color: white;
@@ -300,3 +302,11 @@ i {
     padding-top: 100px;
     margin-bottom: 20px;
 }
+
+.column img {
+    width: 500px;
+    height: 250px;            
+    border-radius: 15px;   
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.4); 
+}
+
